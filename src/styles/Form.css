@@ -1,0 +1,53 @@
+.reto-box {
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 2%;
+  box-shadow: 0 0 20px 10px;
+}
+.reto-box > h2 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.reto-box > form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  padding: 10px;
+}
+.valor {
+  grid-column: 1/2;
+  padding: 2%;
+}
+.select {
+  grid-column: 2/3;
+  padding: 2%;
+}
+.select > div {
+  width: 10vw;
+}
+.trm {
+  grid-column: 3/4;
+  padding: 2%;
+}
+.bt1 {
+  grid-column: 1/2;
+}
+.bt2 {
+  grid-column: 3/4;
+}
+.reto-box > form > button {
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(45, 114, 186);
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+  width: 60%;
+  color: rgb(255, 255, 255);
+}
